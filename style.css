@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /*nastavenie pozadia*/
+    background-image: url("./pozadie.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+
+    /*umiestnenie div class*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*nastavenie fontu*/
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.quiz-container{
+    background-color: rgba(235, 0, 0, 0.692);
+    width: 384px;
+    max-width: 100%;
+    box-shadow: 0 0 15px rgb(95, 34, 34);
+    border-radius: 24px;
+}
+
+.quiz-header{
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+h2 {
+    margin: 0;
+}
